@@ -29,7 +29,7 @@ const Hero = () => {
           Automation.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses advance technoogies to boost up your business technology needs.
+          "Our team of experts uses advance technoogies to boost up your business technology needs".
         </p>
       </div>
 
