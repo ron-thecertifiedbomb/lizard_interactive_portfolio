@@ -15,7 +15,7 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="text-white flex-1 font-poppins font-semibold ss:text-[72px] text-[45px] ss:leading-[100.8px] leading-[65px]">
+          <h1 className="text-gradient flex-1 font-poppins font-semibold ss:text-[72px] text-[45px] ss:leading-[100.8px] leading-[65px]">
             Software Development <br className="sm:block hidden " />{" "}
             {/* <span className="text-white">And</span> */}
             <span className="text-gradient">And</span>
@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[45px] text-white ss:leading-[100.8px] leading-[65px] w-full">
+        <h1 className="font-poppins text-gradient-v2 font-semibold ss:text-[68px] text-[45px] text-white ss:leading-[100.8px] leading-[65px] w-full">
           Automation.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -33,8 +33,8 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className={`hidden md:block ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={herologo} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <div className='hidden md:grid place-items-center'>
+        <img src={herologo} alt="billing" className=" w-[600px] h-[600px] " />
 
         {/* gradient start */}
         {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

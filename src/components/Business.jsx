@@ -20,7 +20,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () =>  (
-  <section id="features" className={layout.sectionReverse}>
+  <section id="features" className={`pr-10 ${layout.sectionReverse}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading3}>
         We’ll handle
